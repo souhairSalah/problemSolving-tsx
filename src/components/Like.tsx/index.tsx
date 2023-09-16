@@ -24,6 +24,19 @@ const Like = () => {
 
 export default Like;
 
+// const [cart, setcart] = useState({
+//   discount: 0.1,
+//   items: [
+//     { id: 1, title: "product1", quantity: 1 },
+//     { id: 2, title: "product2", quantity: 1 },
+//   ],
+// });
+// console.log(cart.items);
+
+// const handleClick = () => {
+//   setcart({...cart, items: cart.items.map(item =>item.id === 1 ? {...item, quantity:2}:item)} );
+// }
+
 // const [bugs, setBugs] = useState([
 //   { id: 1, title: "bug1", fixed: false },
 //   { id: 2, title: "bug2", fixed: true },
@@ -35,8 +48,6 @@ export default Like;
 
 
 
-// let count = 0 ;
-// count++;
 
 
 
