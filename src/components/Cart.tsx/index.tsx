@@ -18,3 +18,4 @@ const Cart = ({ cartItems, onClear }: Props) => {
 };
 
 export default Cart;
+
